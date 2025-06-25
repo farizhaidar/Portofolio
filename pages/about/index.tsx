@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -12,18 +13,19 @@ const About = () => {
       <main className="flex-1 flex flex-col items-center justify-center px-6 py-10">
         {/* Profile Section */}
         <div className="flex flex-col items-center space-y-6 max-w-2xl bg-white p-8 rounded-lg shadow-md">
-          <img
+          <Image
             src="/images/profile.jpg"
             alt="Profile Picture"
-            className="w-32 h-32 rounded-full shadow-lg border-4 border-primary"
+            width={128}
+            height={128}
+            className="rounded-full shadow-lg border-4 border-primary"
           />
           <h2 className="text-3xl font-bold text-gray-800">
             Fariz Haidar Zhaffran
           </h2>
           <p className="text-lg text-gray-600 text-center">
-            Hi, I'm Fariz Haidar Zhaffran, a passionate Full-Stack Developer
-            with a strong interest in building innovative and impactful
-            solutions.
+            Hi, I am Fariz Haidar Zhaffran, a passionate Software Developer with
+            a strong interest in building innovative and impactful solutions.
           </p>
         </div>
 

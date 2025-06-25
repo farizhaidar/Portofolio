@@ -7,7 +7,7 @@ const Home = () => {
       <header className="w-full bg-primary text-white py-6 text-center shadow-md">
         <h1 className="text-5xl font-bold">Fariz Haidar Zhaffran</h1>
         <p className="text-lg mt-2">
-          Full-Stack Developer | Open Source Enthusiast
+          Software Developer | Open Source Enthusiast
         </p>
       </header>
 
