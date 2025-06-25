@@ -28,7 +28,7 @@ const Home = () => {
             <h3 className="text-xl font-semibold text-primary mb-4">
               🚀 Projects
             </h3>
-            <p className="text-gray-700">Explore the work I've done.</p>
+            <p className="text-gray-700">Explore the work I have done.</p>
           </Link>
           <Link
             href="/about"
